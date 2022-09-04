@@ -28,7 +28,14 @@ public class EmpresaServicio {
         }
         return false;
     }
+    public boolean eliminarEmpresa(Long id){
+        empresaRepositorio.deleteById(id);
+        if(getEmpresaporId(id)!=null){
+            return false;
 
+        }
+        return true;
+    }
 
 
 }

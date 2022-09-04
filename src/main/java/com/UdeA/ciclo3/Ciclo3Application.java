@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.xml.bind.SchemaOutputResolver;
 
-@RestController
+//@RestController
 @SpringBootApplication (exclude = {SecurityAutoConfiguration.class})
 public class Ciclo3Application {
 
